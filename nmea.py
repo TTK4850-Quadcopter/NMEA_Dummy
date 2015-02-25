@@ -2,7 +2,7 @@ import socket
 import serial
 import time
 
-serialdevice = "/dev/ttyUSB0"
+serialdevice = "/dev/tty.usbserial-FTGYEXIC"
 
 port =serial.Serial(port=serialdevice, baudrate=9600, parity=serial.PARITY_NONE, stopbits=serial.STOPBITS_ONE, bytesize=serial.EIGHTBITS, timeout=5)
 
